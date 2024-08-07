@@ -23,7 +23,13 @@ class HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      appBar: AppBar(title: Text('Conta Lanci 5.0')),
+      appBar: AppBar(
+        title: const Text(
+          'Conta Lanci 5.0',
+          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
+        ),
+        backgroundColor: Colors.red,
+      ),
       body: Center(
         child: Center(
           child: Column(children: [
